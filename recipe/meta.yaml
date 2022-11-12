@@ -1,5 +1,5 @@
 {% set name = "plyer" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plyer-{{ version }}.tar.gz
-  sha256: 8de38b17bc438df36eedeacd546cf05303ab871855af0669fc4e8df51f2adf94
+  sha256: 65b7dfb7e11e07af37a8487eb2aa69524276ef70dad500b07228ce64736baa61
 
 build:
   number: 0
